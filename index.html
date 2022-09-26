@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta nlame="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Sign-up-Form</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta nlame="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odin Sign-up-Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="left_side">
+            <div class="logo">
+                <img src="Images/odin_logo.png" alt="Odin Logo"> 
+                <p>Vorona</p> 
+            </div>
+        </div>
+
+        <div class="right_side">
     
-</body>
+            <div class="first_text">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            
+            <div class="form_container">
+                <p class="text_top">Let's do this!</p>
+                <!--action="/odin-sign-up-form"-->
+                <form method="post">
+                    <div class="first_row">
+                        <div class="first_name">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="user_first_name">
+                        </div>
+                    
+                        <div class="last_name">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="user_last_name">
+                        </div>
+                    </div>
+
+                    <div class="second_row">
+                        <div class="email">
+                            <label for="mail">EMAIL</label>
+                            <input type = "email" id="mail" name="user_email">
+                        </div>
+            
+                        <div class="phone_number">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="text" id="phone_number" name="user_phone_numebr">
+                        </div>
+                    </div>
+
+                    <div class="third_row">
+                        <div class="password">
+                            <label for="password">PASSWORD</label>
+                            <input type= "password" id="password" name="user_password">
+                        </div>
+            
+                        <div class="confirm_password"> 
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type= "password" id="confirm_password" name="user_password_confirm"/>
+                        </div>
+                    </div>
+                      
+                    <div class="submit_button">
+                        <button type="submit">Create Account</button>
+                    </div>
+                    <p class="bottom_text">Already have an account? Log in</p>
+                </form>
+            </div>            
+        </div>
+    </body>
 </html>
