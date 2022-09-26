@@ -48,8 +48,14 @@ body {
 .logo p {
     font-size: 3rem;
     font-weight: 700;
-    color: white;
-    
+    color: #e0e0e0;
+}
+
+.art_credit {
+    font-size: 0.8rem;
+    color: #e0e0e0;
+
+    margin-top: 60vh;
 }
 
 .first_text {
@@ -179,6 +185,10 @@ button:hover{
         font-size: 3rem;
         font-weight: 700;
         color: white;
+    }
+
+    .art_credit {
+        margin-top: 0;
     }
 
     .first_text {
